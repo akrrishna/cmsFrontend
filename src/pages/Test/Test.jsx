@@ -4,13 +4,13 @@
 const Test = () => {
     var [count,setCount] = useState(0)
 
-    const increaseCount = ()=>{
+    function increaseCount(){
         setCount(count=count+1)
         
       
     }
 
-    const decreaseCount = () =>{
+    function decreaseCount(){
         setCount(count=count-1)
         
     }
